@@ -1,0 +1,166 @@
+# 📊 Probability & Statistics – Day 6 (Complete Revision)
+
+This section covers a **quick yet complete revision** of core Probability and Statistics concepts, useful for **Data Analytics, Data Science, and interviews**.
+
+---
+
+## 🔹 1. Probability – Basics
+
+### Key Terms
+- **Experiment**: A random process (coin toss, dice roll)
+- **Sample Space (S)**: All possible outcomes
+- **Event (E)**: A subset of sample space
+- **Probability Formula**  
+  \[
+  P(E) = \frac{\text{Favourable outcomes}}{\text{Total outcomes}}
+  \]
+
+---
+
+## 🔹 2. Types of Events
+
+### Independent Events
+- One event does not affect the other  
+- Formula:  
+  \[
+  P(A \cap B) = P(A) \times P(B)
+  \]
+
+### Dependent Events
+- Outcome of one event affects the other
+
+### Mutually Exclusive Events
+- Events cannot occur together  
+- Formula:  
+  \[
+  P(A \cap B) = 0
+  \]
+
+---
+
+## 🔹 3. Probability Rules
+
+### Addition Rule
+\[
+P(A \cup B) = P(A) + P(B) - P(A \cap B)
+\]
+
+### Complement Rule
+\[
+P(A') = 1 - P(A)
+\]
+
+---
+
+## 🔹 4. Conditional Probability
+
+Probability of A given B:
+\[
+P(A|B) = \frac{P(A \cap B)}{P(B)}
+\]
+
+Used heavily in **Bayes Theorem & real-world predictions**.
+
+---
+
+## 🔹 5. Bayes Theorem
+
+\[
+P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}
+\]
+
+### Applications:
+- Spam filtering  
+- Medical diagnosis  
+- Machine Learning models  
+
+---
+
+## 🔹 6. Random Variables
+
+### Discrete Random Variable
+- Countable outcomes (dice values)
+
+### Continuous Random Variable
+- Measurable outcomes (height, weight)
+
+---
+
+## 🔹 7. Probability Distributions
+
+### Discrete
+- Bernoulli Distribution  
+- Binomial Distribution  
+- Poisson Distribution  
+
+### Continuous
+- Normal Distribution  
+- Uniform Distribution  
+
+---
+
+## 🔹 8. Statistics – Descriptive Measures
+
+### Central Tendency
+- **Mean** – average  
+- **Median** – middle value (robust to outliers)  
+- **Mode** – most frequent value  
+
+### Dispersion
+- **Range**
+- **Variance**
+- **Standard Deviation**
+
+---
+
+## 🔹 9. Data Types
+
+- **Qualitative (Categorical)**  
+  - Nominal  
+  - Ordinal  
+
+- **Quantitative (Numerical)**  
+  - Discrete  
+  - Continuous  
+
+---
+
+## 🔹 10. Inferential Statistics
+
+### Hypothesis Testing
+- **Null Hypothesis (H₀)**: No effect  
+- **Alternative Hypothesis (H₁)**: Some effect  
+
+### P-value Interpretation
+- **p ≤ 0.05** → Significant result  
+- **p > 0.05** → Not significant  
+
+---
+
+## 🔹 11. Common Statistical Tests
+
+| Test | Used When |
+|----|----|
+| Z-test | Large sample, known variance |
+| T-test | Small sample, unknown variance |
+| Chi-square | Categorical data |
+| ANOVA | Compare more than 2 means |
+
+---
+
+## 🔹 12. Correlation & Visualization
+
+- **Correlation** measures relationship strength  
+- Values range from **-1 to +1**
+- Heatmaps help visualize correlations
+
+---
+
+## ✅ Key Takeaways
+- Probability handles **uncertainty**
+- Statistics helps in **decision making**
+- Both are core foundations for **Data Analytics & AI**
+
+---
+
+📌 *This revision consolidates essential concepts required for exams, projects, and interviews.*
