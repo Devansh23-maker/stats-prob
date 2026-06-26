@@ -1,4 +1,4 @@
-# stats-prob
+#stats-prob
 
 # 📊 Statistics & Probability for Data Science
 
